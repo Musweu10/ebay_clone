@@ -1,5 +1,7 @@
 # ebay_clone
 
+![](assets/images/ebaydesing1.png)
+
 A new Flutter project.
 
 ## Getting Started
