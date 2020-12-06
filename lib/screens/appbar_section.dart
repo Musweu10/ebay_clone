@@ -31,10 +31,6 @@ class _TheAppBar extends State<TheAppBar> {
               onPressed: () {},
             ),
           ],
-          // bottom: PreferredSize(
-          //   child:
-          //   preferredSize: Size.fromHeight(10.0),
-          // ),
         ),
       ),
       drawer: Drawer(

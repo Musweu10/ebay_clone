@@ -66,15 +66,13 @@ class _RcentlyViewedScreenState extends State<RcentlyViewedScreen> {
             ),
             SizedBox(height: 5),
             Expanded(
-              // height: MediaQuery.of(context).size.height / 1,
-              // // height: 300,
-              // margin: EdgeInsets.only(top: 12),
+         
               // color: Colors.red,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 2),
                 child: GridView.builder(
                     padding: EdgeInsets.only(
-                      // bottom: 10,
+                
                       top: 5,
                       left: 1,
                       right: 1,

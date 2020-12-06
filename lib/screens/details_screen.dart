@@ -1,4 +1,3 @@
-import 'package:ebay_clone/constants/constants.dart';
 import 'package:ebay_clone/models/Product.dart';
 import 'package:ebay_clone/screens/main_drawer.dart';
 import 'package:flutter/material.dart';
@@ -54,7 +53,6 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                // IconButton(icon: Icon(Icons.favorite_border), onPressed:(){}),
                 Positioned(
                     bottom: MediaQuery.of(context).size.height / 40,
                     left: MediaQuery.of(context).size.width / 1.2,
@@ -257,85 +255,6 @@ class DetailsScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class ProductTitleWithImage extends StatelessWidget {
-  const ProductTitleWithImage({
-    Key key,
-    @required this.product,
-  }) : super(key: key);
-
-  final Product product;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          SizedBox(height: kDefaultPaddin),
-          Row(
-            children: <Widget>[
-              SizedBox(width: 10),
-            ],
-          )
-        ],
-      ),
-    );
-  }
-}
-
-class Body extends StatelessWidget {
-  final Product product;
-
-  const Body({Key key, this.product}) : super(key: key);
-  @override
-  Widget build(BuildContext context) {
-    // It provide us total height and width
-    return SingleChildScrollView(
-      child: Column(
-        children: <Widget>[
-          // SizedBox(
-          //   height: size.height,
-          //   child: Stack(
-          //     children: <Widget>[
-          //       Container(
-          //         margin: EdgeInsets.only(top: size.height * 0.3),
-          //         padding: EdgeInsets.only(
-          //           top: size.height * 0.12,
-          //           left: kDefaultPaddin,
-          //           right: kDefaultPaddin,
-          //         ),
-          //         // height: 500,
-          //         decoration: BoxDecoration(
-          //           color: Colors.red,
-          //           borderRadius: BorderRadius.only(
-          //             topLeft: Radius.circular(24),
-          //             topRight: Radius.circular(24),
-          //           ),
-          //         ),
-          //         // child: Column(
-          //         //   children: <Widget>[
-          //         //     ColorAndSize(product: product),
-          //         //     SizedBox(height: kDefaultPaddin / 2),
-          //         //     Description(product: product),
-          //         //     SizedBox(height: kDefaultPaddin / 2),
-          //         //     CounterWithFavBtn(),
-          //         //     SizedBox(height: kDefaultPaddin / 2),
-          //         //     AddToCart(product: product)
-          //         //   ],
-          //         // ),
-          //       ),
-          //       // ProductTitleWithImage(product: product)
-          //     ],
-          //   ),
-          // )
-          ProductTitleWithImage(product: product)
-        ],
       ),
     );
   }

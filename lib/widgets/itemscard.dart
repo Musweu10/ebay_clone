@@ -23,10 +23,6 @@ class ItemCard extends StatelessWidget {
             width: 260,
             child: Container(
               padding: EdgeInsets.all(15),
-              // For  demo we use fixed height  and width
-              // Now we dont need them
-              // height: 180,
-              // width: 160,
               decoration: BoxDecoration(
                 color: product.color,
                 borderRadius: BorderRadius.circular(8),
@@ -40,14 +36,6 @@ class ItemCard extends StatelessWidget {
               ),
             ),
           ),
-          // Padding(
-          //   padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin / 10),
-          //   child: Text(
-          //     // products is out demo list
-          //     product.title,
-          //     style: TextStyle(color: kTextLightColor),
-          //   ),
-          // ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin / 6),
             child: Text(
@@ -88,10 +76,6 @@ class ItemCard2 extends StatelessWidget {
             width: 260,
             child: Container(
               padding: EdgeInsets.all(15),
-              // For  demo we use fixed height  and width
-              // Now we dont need them
-              // height: 180,
-              // width: 160,
               decoration: BoxDecoration(
                 color: product2.color,
                 borderRadius: BorderRadius.circular(8),
@@ -105,14 +89,6 @@ class ItemCard2 extends StatelessWidget {
               ),
             ),
           ),
-          // Padding(
-          //   padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin / 10),
-          //   child: Text(
-          //     // products is out demo list
-          //     product2.title,
-          //     style: TextStyle(color: kTextLightColor),
-          //   ),
-          // ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin / 6),
             child: Text(
@@ -152,11 +128,6 @@ class ItemCard3 extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 7.5,
             width: double.maxFinite,
             child: Container(
-              // padding: EdgeInsets.all(2),
-              // For  demo we use fixed height  and width
-              // Now we dont need them
-              // height: 180,
-              // width: 160,
               decoration: BoxDecoration(
                 // color: product3.color,
                 borderRadius: BorderRadius.circular(100),
@@ -218,10 +189,6 @@ class ItemCard4 extends StatelessWidget {
               width: 120,
               child: Container(
                 padding: EdgeInsets.all(15),
-                // For  demo we use fixed height  and width
-                // Now we dont need them
-                // height: 180,
-                // width: 160,
                 decoration: BoxDecoration(
                   color: product4.color,
                   borderRadius: BorderRadius.circular(8),
@@ -244,7 +211,6 @@ class ItemCard4 extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(vertical: kDefaultPaddin / 10),
                   child: Text(
-                    // products is out demo list
                     product4.title,
                     style: TextStyle(color: kTextLightColor),
                   ),
@@ -252,14 +218,10 @@ class ItemCard4 extends StatelessWidget {
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Text(product4.description4),
-                    // Text("\$${product4.price}"),
-
                     Padding(
                       padding: const EdgeInsets.symmetric(
                           vertical: kDefaultPaddin / 6),
                       child: Text(
-                        // products is out demo list
                         product4.description4,
                         style: TextStyle(color: kTextLightColor),
                       ),
@@ -276,32 +238,6 @@ class ItemCard4 extends StatelessWidget {
                 ),
               ),
             )
-            // Column(
-            //   children: [
-            //     Padding(
-            //       padding:
-            //           const EdgeInsets.symmetric(vertical: kDefaultPaddin / 10),
-            //       child: Text(
-            //         // products is out demo list
-            //         product2.title,
-            //         style: TextStyle(color: kTextLightColor),
-            //       ),
-            //     ),
-            //     Padding(
-            //       padding:
-            //           const EdgeInsets.symmetric(vertical: kDefaultPaddin / 6),
-            //       child: Text(
-            //         // products is out demo list
-            //         product2.description2,
-            //         style: TextStyle(color: kTextLightColor),
-            //       ),
-            //     ),
-            //     Text(
-            //       "\$${product2.price}",
-            //       style: TextStyle(fontWeight: FontWeight.bold),
-            //     )
-            //   ],
-            // )
           ],
         ),
       ),

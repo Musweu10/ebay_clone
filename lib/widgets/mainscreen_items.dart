@@ -45,7 +45,6 @@ class _MainScreenItemsState extends State<MainScreenItems> {
           SizedBox(height: 5),
           Container(
             height: MediaQuery.of(context).size.height / 2.7,
-            // height: 300,
             margin: EdgeInsets.only(top: 12),
             // color: Colors.red,
             child: Padding(
@@ -117,7 +116,7 @@ class _MainScreenItems2State extends State<MainScreenItems2> {
           SizedBox(height: 5),
           Container(
             height: MediaQuery.of(context).size.height / 2.7,
-            // height: 300,
+
             margin: EdgeInsets.only(top: 12),
             // color: Colors.red,
             child: Padding(
@@ -190,7 +189,7 @@ class _MainScreenItems3State extends State<MainScreenItems3> {
           Container(
             height:
                 MediaQuery.of(context).size.height / 2.3, //Original  is/ 2.3
-            // height: 300,
+
             margin: EdgeInsets.only(top: 12),
             // color: Colors.red,
             child: Padding(
@@ -202,7 +201,6 @@ class _MainScreenItems3State extends State<MainScreenItems3> {
                     left: 10,
                     right: 10,
                   ),
-                  // scrollDirection: Axis.horizontal,
                   itemCount: products.length,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,

@@ -21,29 +21,8 @@ class _TheSplashScreen extends State<TheSplashScreen> {
           fontSize: 70.0,
         ),
       ),
-      // image: Image.asset('/assets/images/196552.svg'),
-      // image: new Image.network(
-      //     'https://flutter.io/images/catalog-widget-placeholder.png'),
       backgroundColor: Colors.white,
       loaderColor: Colors.red,
-    );
-  }
-}
-
-class AfterSplash extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Welcome In SplashScreen Package"),
-        automaticallyImplyLeading: false,
-      ),
-      body: new Center(
-        child: new Text(
-          "Succeeded!",
-          style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
-        ),
-      ),
     );
   }
 }

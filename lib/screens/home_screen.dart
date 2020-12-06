@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Expanded(
-          // height: 1600,
+        
           child: Align(
             alignment: Alignment.topCenter,
             child: Column(
@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.grey[300],
                         // Color(0xFFEEEEEE),
                         height: 60,
-                        // height: MediaQuery.of(context).size.height / 1.3,
+                 
                         width: MediaQuery.of(context).size.width / 1.1,
                         child: TextField(
                           decoration: InputDecoration(
@@ -55,8 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             suffixIcon: Container(
                               width: 120,
-                              // margin: EdgeInsets.only(right: 10),
-                              // color: Colors.amber,
+                             
                               child: Row(
                                 children: [
                                   IconButton(
@@ -98,18 +97,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 MainScreenItems(),
                 MainScreenItems2(),
                 MainScreenItems3(),
-                // MainScreenItems(),
-                // MainScreenItems(),
-                // SizedBox(height: 5),
-                // Container(
-                //   color: Colors.green,
-                //   height: 400,
-                // ),
-                // SizedBox(height: 10),
-                // Container(
-                //   color: Colors.grey,
-                //   height: 400,
-                // ),
               ],
             ),
           ),
