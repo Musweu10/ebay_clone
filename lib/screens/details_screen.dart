@@ -1,7 +1,6 @@
 import 'package:ebay_clone/constants/constants.dart';
 import 'package:ebay_clone/models/Product.dart';
 import 'package:ebay_clone/screens/main_drawer.dart';
-import 'package:ebay_clone/widgets/mainscreen_items.dart';
 import 'package:flutter/material.dart';
 import 'package:mdi/mdi.dart';
 
@@ -297,7 +296,6 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // It provide us total height and width
-    Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(
         children: <Widget>[
