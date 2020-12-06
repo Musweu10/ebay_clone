@@ -1,6 +1,7 @@
 # ebay_clone
 
 ![](assets/images/ebaydesing1.png)
+![](assets/images/ebaydesing2.png)
 
 A new Flutter project.
 
